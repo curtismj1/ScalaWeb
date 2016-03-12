@@ -2,7 +2,7 @@
   * Created by Michael Curtis on 2/11/2016.
   */
 package PageSummary
-
+import scala.collection.mutable.ListBuffer
 
 trait Weighted[A] {
   val items: Iterable[A]
@@ -29,6 +29,7 @@ trait Weighted[A] {
     return returnMe
   }
 }
+
 class PageSummary(incURL: String, incTerms: List[String]) {
   val url = incURL
   val terms = incTerms
@@ -51,5 +52,20 @@ class PageSummary(incURL: String, incTerms: List[String]) {
       }
     }
     return i / terms.size
+  }
+}
+//TODO Ask about how IndexedPages is supposed to work
+class IndexedPages() extends Iterable[PageSummary]{
+  var indexedPages = new ListBuffer[PageSummary]
+  override def iterator = indexedPages.iterator
+  //TODO test this and make sure that "snowflake" doesn't return positive for "snow"
+  def numContaining(word: String): Double = {
+    var count = 0.0
+    for(page <- indexedPages){
+      if(page.terms.contains(word)){
+        count += 1.0
+      }
+    }
+    return count
   }
 }
