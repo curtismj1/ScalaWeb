@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scalaweb_2.11"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160210192400"/>
+	<dependencies>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.1.2" status="release" pubdate="20110729180203" resolver="jcenter" artresolver="jcenter" homepage="http://hc.apache.org/httpcomponents-client" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="successful" details="" size="5990" time="287" location="C:\Users\Michael Curtis\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.1.2.xml" searched="true" original-local-location="C:\Users\Michael Curtis\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.1.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.pom"/>
+				<caller organisation="default" name="scalaweb_2.11" conf="compile, runtime-internal, runtime, optional" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="successful" details="" size="352254" time="1372" location="C:\Users\Michael Curtis\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.4" status="release" pubdate="20090809171603" resolver="jcenter" artresolver="jcenter" homepage="http://commons.apache.org/codec/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="successful" details="" size="10494" time="245" location="C:\Users\Michael Curtis\.ivy2\cache\commons-codec\commons-codec\ivy-1.4.xml" searched="true" original-local-location="C:\Users\Michael Curtis\.ivy2\cache\commons-codec\commons-codec\ivy-1.4.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.4/commons-codec-1.4.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="4.1.2"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="successful" details="" size="58160" time="418" location="C:\Users\Michael Curtis\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.4/commons-codec-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.1.2" status="release" pubdate="20110710070325" resolver="jcenter" artresolver="jcenter" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="successful" details="" size="7390" time="292" location="C:\Users\Michael Curtis\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.1.2.xml" searched="true" original-local-location="C:\Users\Michael Curtis\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.1.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="default, compile, runtime, master" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="4.1.2"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="successful" details="" size="181200" time="937" location="C:\Users\Michael Curtis\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20080831074520" resolver="jcenter" artresolver="jcenter" homepage="http://commons.apache.org/logging" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<metadata-artifact status="successful" details="" size="18365" time="740" location="C:\Users\Michael Curtis\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.1.xml" searched="true" original-local-location="C:\Users\Michael Curtis\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="4.1.2"/>
+				<caller organisation="default" name="scalaweb_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="successful" details="" size="60686" time="611" location="C:\Users\Michael Curtis\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150803120311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Michael Curtis\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="default" name="scalaweb_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="C:\Users\Michael Curtis\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
