@@ -6,7 +6,7 @@ import scala.collection.mutable.ListBuffer
 
 trait Weighted[A] {
   val items: Iterable[A]
-  val weightingFn: A => Double
+  def weightingFn: A => Double
   def weights: Iterable[Double] = {
     return for(item <- items) yield weightingFn(item)
   }
