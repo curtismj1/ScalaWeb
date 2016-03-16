@@ -6,7 +6,15 @@ import PageSummary.{IndexedPages, PageSummary, Weighted}
 
 class WeightedIndexedPages extends IndexedPages with Weighted[PageSummary]{
   val items = indexedPages
-  def weightingFn(page: PageSummary): Double = {
-    return 0.0
+  //This is called the "grover weighting function"
+  val weightingFn = (page: PageSummary) => {
+    //because who doesn't love random constants in their code?
+    var rank: Double = 100 - page.url.length
+    for(i <- page.terms){
+      if(i.toLowerCase() == "god" || i.toLowerCase() == "jesus" || i.toLowerCase() == "holy spirit"){
+        rank += 1
+      }
+    }
+    rank
   }
 }

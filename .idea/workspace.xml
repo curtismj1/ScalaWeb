@@ -2,9 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b24310-fa51-4ec5-adeb-d0e93a499e00" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Query.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/PageSummary/IndexedPages$$anonfun$numContaining$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/PageSummary/IndexedPages$$anonfun$numContaining$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/PageSummary/IndexedPages.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/PageSummary/IndexedPages.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$10$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$10$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$formParams$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$formParams$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handleGetRequest$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handleGetRequest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handleOptionsRequest$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handleOptionsRequest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handlePostRequest$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handlePostRequest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PageSummary.scala" afterPath="$PROJECT_DIR$/src/PageSummary.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SearchEngine.scala" afterPath="$PROJECT_DIR$/src/SearchEngine.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WeightedIndexedPages.scala" afterPath="$PROJECT_DIR$/src/WeightedIndexedPages.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/scalaweb$sbt_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/scalaweb$sbt_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/scalaweb$sbt_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/scalaweb$sbt_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/scalaweb$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/scalaweb$sources_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/scalaweb$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/scalaweb$sources_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sbt_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sbt_2.11-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-scalaweb$sources_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
     </list>
     <ignored path="ScalaWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,33 +95,46 @@
           <file leaf-file-name="SearchEngine.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/SearchEngine.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.6896553">
-                  <caret line="10" column="27" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
                   <folding>
-                    <element signature="e#465#844#0" expanded="false" />
-                    <element signature="e#973#1061#0" expanded="false" />
-                    <element signature="e#1064#2203#0" expanded="false" />
-                    <element signature="e#1914#2137#0" expanded="false" />
-                    <element signature="e#2206#2596#0" expanded="false" />
-                    <element signature="e#2599#3197#0" expanded="false" />
-                    <element signature="e#3200#3596#0" expanded="false" />
-                    <element signature="e#3599#3806#0" expanded="false" />
-                    <element signature="e#3809#3922#0" expanded="false" />
-                    <element signature="e#3876#3901#0" expanded="false" />
-                    <element signature="e#3925#4191#0" expanded="false" />
-                    <element signature="e#4194#4478#0" expanded="false" />
-                    <element signature="e#4481#4662#0" expanded="false" />
-                    <element signature="e#4665#4914#0" expanded="false" />
+                    <element signature="e#53#77#0" expanded="true" />
+                    <element signature="e#455#834#0" expanded="false" />
+                    <element signature="e#963#1051#0" expanded="false" />
+                    <element signature="e#1054#2193#0" expanded="false" />
+                    <element signature="e#1904#2127#0" expanded="false" />
+                    <element signature="e#2196#2586#0" expanded="false" />
+                    <element signature="e#3352#3748#0" expanded="false" />
+                    <element signature="e#3751#3958#0" expanded="false" />
+                    <element signature="e#3961#4074#0" expanded="false" />
+                    <element signature="e#4028#4053#0" expanded="false" />
+                    <element signature="e#4077#4343#0" expanded="false" />
+                    <element signature="e#4346#4630#0" expanded="false" />
+                    <element signature="e#4633#4814#0" expanded="false" />
+                    <element signature="e#4817#5066#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="WeightedIndexedPages.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Query.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Query.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.33170733">
+                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#53#73#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="WeightedIndexedPages.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/WeightedIndexedPages.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22804879">
-                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -93,18 +145,18 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="PageSummary.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/PageSummary.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.47682926">
-                  <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.2682927">
+                  <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#195#286#0" expanded="false" />
                     <element signature="e#289#573#0" expanded="false" />
                     <element signature="e#576#712#0" expanded="false" />
-                    <element signature="e#774#1198#1" expanded="false" />
+                    <element signature="e#1221#1471#1" expanded="false" />
+                    <element signature="e#1317#1469#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -137,9 +189,10 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/SearchEngine.scala" />
         <option value="$PROJECT_DIR$/src/main/starter.scala" />
-        <option value="$PROJECT_DIR$/src/SearchEngine.scala" />
-        <option value="$PROJECT_DIR$/src/PageSummary.scala" />
         <option value="$PROJECT_DIR$/src/WeightedIndexedPages.scala" />
+        <option value="$PROJECT_DIR$/src/PageSummary.scala" />
+        <option value="$PROJECT_DIR$/src/SearchEngine.scala" />
+        <option value="$PROJECT_DIR$/src/Query.scala" />
       </list>
     </option>
   </component>
@@ -172,8 +225,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,7 +294,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -607,7 +660,7 @@
     </list>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1457190632736" />
+    <option name="lastUpdateTimestamp" value="1458091701108" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -650,18 +703,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="2120" extended-state="1" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1920" height="2120" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1557214" sideWeight="0.46848738" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1557214" sideWeight="0.44957983" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1557214" sideWeight="0.5315126" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1557214" sideWeight="0.55042017" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5919118" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2119403" sideWeight="0.59138656" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16281512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -669,7 +722,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.47689074" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.47478992" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -700,6 +753,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/PageSummary.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#289#573#0" expanded="false" />
+            <element signature="e#576#712#0" expanded="false" />
+            <element signature="e#1221#1471#1" expanded="false" />
+            <element signature="e#1317#1469#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/starter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -713,20 +780,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#465#844#0" expanded="false" />
-            <element signature="e#973#1061#0" expanded="false" />
-            <element signature="e#1064#2203#0" expanded="false" />
-            <element signature="e#1914#2137#0" expanded="false" />
-            <element signature="e#2206#2596#0" expanded="false" />
-            <element signature="e#2599#3197#0" expanded="false" />
-            <element signature="e#3200#3596#0" expanded="false" />
-            <element signature="e#3599#3806#0" expanded="false" />
-            <element signature="e#3809#3922#0" expanded="false" />
-            <element signature="e#3876#3901#0" expanded="false" />
-            <element signature="e#3925#4191#0" expanded="false" />
-            <element signature="e#4194#4478#0" expanded="false" />
-            <element signature="e#4481#4662#0" expanded="false" />
-            <element signature="e#4665#4914#0" expanded="false" />
+            <element signature="e#53#77#0" expanded="true" />
+            <element signature="e#455#834#0" expanded="false" />
+            <element signature="e#963#1051#0" expanded="false" />
+            <element signature="e#1054#2193#0" expanded="false" />
+            <element signature="e#1904#2127#0" expanded="false" />
+            <element signature="e#2196#2586#0" expanded="false" />
+            <element signature="e#3352#3748#0" expanded="false" />
+            <element signature="e#3751#3958#0" expanded="false" />
+            <element signature="e#3961#4074#0" expanded="false" />
+            <element signature="e#4028#4053#0" expanded="false" />
+            <element signature="e#4077#4343#0" expanded="false" />
+            <element signature="e#4346#4630#0" expanded="false" />
+            <element signature="e#4633#4814#0" expanded="false" />
+            <element signature="e#4817#5066#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,10 +804,10 @@
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#195#286#0" expanded="false" />
             <element signature="e#289#573#0" expanded="false" />
             <element signature="e#576#712#0" expanded="false" />
-            <element signature="e#774#1198#1" expanded="false" />
+            <element signature="e#1221#1471#1" expanded="false" />
+            <element signature="e#1317#1469#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#6735#6736#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,20 +860,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#465#844#0" expanded="false" />
-            <element signature="e#973#1061#0" expanded="false" />
-            <element signature="e#1064#2203#0" expanded="false" />
-            <element signature="e#1914#2137#0" expanded="false" />
-            <element signature="e#2206#2596#0" expanded="false" />
-            <element signature="e#2599#3197#0" expanded="false" />
-            <element signature="e#3200#3596#0" expanded="false" />
-            <element signature="e#3599#3806#0" expanded="false" />
-            <element signature="e#3809#3922#0" expanded="false" />
-            <element signature="e#3876#3901#0" expanded="false" />
-            <element signature="e#3925#4191#0" expanded="false" />
-            <element signature="e#4194#4478#0" expanded="false" />
-            <element signature="e#4481#4662#0" expanded="false" />
-            <element signature="e#4665#4914#0" expanded="false" />
+            <element signature="e#53#77#0" expanded="true" />
+            <element signature="e#455#834#0" expanded="false" />
+            <element signature="e#963#1051#0" expanded="false" />
+            <element signature="e#1054#2193#0" expanded="false" />
+            <element signature="e#1904#2127#0" expanded="false" />
+            <element signature="e#2196#2586#0" expanded="false" />
+            <element signature="e#3352#3748#0" expanded="false" />
+            <element signature="e#3751#3958#0" expanded="false" />
+            <element signature="e#3961#4074#0" expanded="false" />
+            <element signature="e#4028#4053#0" expanded="false" />
+            <element signature="e#4077#4343#0" expanded="false" />
+            <element signature="e#4346#4630#0" expanded="false" />
+            <element signature="e#4633#4814#0" expanded="false" />
+            <element signature="e#4817#5066#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -824,10 +884,10 @@
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#195#286#0" expanded="false" />
             <element signature="e#289#573#0" expanded="false" />
             <element signature="e#576#712#0" expanded="false" />
-            <element signature="e#774#1198#1" expanded="false" />
+            <element signature="e#1221#1471#1" expanded="false" />
+            <element signature="e#1317#1469#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -836,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,9 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#6735#6736#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,20 +940,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#465#844#0" expanded="false" />
-            <element signature="e#973#1061#0" expanded="false" />
-            <element signature="e#1064#2203#0" expanded="false" />
-            <element signature="e#1914#2137#0" expanded="false" />
-            <element signature="e#2206#2596#0" expanded="false" />
-            <element signature="e#2599#3197#0" expanded="false" />
-            <element signature="e#3200#3596#0" expanded="false" />
-            <element signature="e#3599#3806#0" expanded="false" />
-            <element signature="e#3809#3922#0" expanded="false" />
-            <element signature="e#3876#3901#0" expanded="false" />
-            <element signature="e#3925#4191#0" expanded="false" />
-            <element signature="e#4194#4478#0" expanded="false" />
-            <element signature="e#4481#4662#0" expanded="false" />
-            <element signature="e#4665#4914#0" expanded="false" />
+            <element signature="e#53#77#0" expanded="true" />
+            <element signature="e#455#834#0" expanded="false" />
+            <element signature="e#963#1051#0" expanded="false" />
+            <element signature="e#1054#2193#0" expanded="false" />
+            <element signature="e#1904#2127#0" expanded="false" />
+            <element signature="e#2196#2586#0" expanded="false" />
+            <element signature="e#3352#3748#0" expanded="false" />
+            <element signature="e#3751#3958#0" expanded="false" />
+            <element signature="e#3961#4074#0" expanded="false" />
+            <element signature="e#4028#4053#0" expanded="false" />
+            <element signature="e#4077#4343#0" expanded="false" />
+            <element signature="e#4346#4630#0" expanded="false" />
+            <element signature="e#4633#4814#0" expanded="false" />
+            <element signature="e#4817#5066#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -911,10 +964,10 @@
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#195#286#0" expanded="false" />
             <element signature="e#289#573#0" expanded="false" />
             <element signature="e#576#712#0" expanded="false" />
-            <element signature="e#774#1198#1" expanded="false" />
+            <element signature="e#1221#1471#1" expanded="false" />
+            <element signature="e#1317#1469#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -923,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,9 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#6735#6736#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,20 +1020,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#465#844#0" expanded="false" />
-            <element signature="e#973#1061#0" expanded="false" />
-            <element signature="e#1064#2203#0" expanded="false" />
-            <element signature="e#1914#2137#0" expanded="false" />
-            <element signature="e#2206#2596#0" expanded="false" />
-            <element signature="e#2599#3197#0" expanded="false" />
-            <element signature="e#3200#3596#0" expanded="false" />
-            <element signature="e#3599#3806#0" expanded="false" />
-            <element signature="e#3809#3922#0" expanded="false" />
-            <element signature="e#3876#3901#0" expanded="false" />
-            <element signature="e#3925#4191#0" expanded="false" />
-            <element signature="e#4194#4478#0" expanded="false" />
-            <element signature="e#4481#4662#0" expanded="false" />
-            <element signature="e#4665#4914#0" expanded="false" />
+            <element signature="e#53#77#0" expanded="true" />
+            <element signature="e#455#834#0" expanded="false" />
+            <element signature="e#963#1051#0" expanded="false" />
+            <element signature="e#1054#2193#0" expanded="false" />
+            <element signature="e#1904#2127#0" expanded="false" />
+            <element signature="e#2196#2586#0" expanded="false" />
+            <element signature="e#3352#3748#0" expanded="false" />
+            <element signature="e#3751#3958#0" expanded="false" />
+            <element signature="e#3961#4074#0" expanded="false" />
+            <element signature="e#4028#4053#0" expanded="false" />
+            <element signature="e#4077#4343#0" expanded="false" />
+            <element signature="e#4346#4630#0" expanded="false" />
+            <element signature="e#4633#4814#0" expanded="false" />
+            <element signature="e#4817#5066#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -998,10 +1044,10 @@
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#195#286#0" expanded="false" />
             <element signature="e#289#573#0" expanded="false" />
             <element signature="e#576#712#0" expanded="false" />
-            <element signature="e#774#1198#1" expanded="false" />
+            <element signature="e#1221#1471#1" expanded="false" />
+            <element signature="e#1317#1469#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1010,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,9 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#6735#6736#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20731707">
           <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020731708">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7512195">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,9 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020731708">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#6735#6736#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41463414">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,7 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33292684">
           <caret line="283" column="6" selection-start-line="283" selection-start-column="6" selection-end-line="283" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33292684">
           <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,49 +1187,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchEngine.scala">
+    <entry file="file://$PROJECT_DIR$/src/WeightedIndexedPages.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6896553">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
-            <element signature="e#465#844#0" expanded="false" />
-            <element signature="e#973#1061#0" expanded="false" />
-            <element signature="e#1064#2203#0" expanded="false" />
-            <element signature="e#1914#2137#0" expanded="false" />
-            <element signature="e#2206#2596#0" expanded="false" />
-            <element signature="e#2599#3197#0" expanded="false" />
-            <element signature="e#3200#3596#0" expanded="false" />
-            <element signature="e#3599#3806#0" expanded="false" />
-            <element signature="e#3809#3922#0" expanded="false" />
-            <element signature="e#3876#3901#0" expanded="false" />
-            <element signature="e#3925#4191#0" expanded="false" />
-            <element signature="e#4194#4478#0" expanded="false" />
-            <element signature="e#4481#4662#0" expanded="false" />
-            <element signature="e#4665#4914#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeightedIndexedPages.scala">
+    <entry file="file://$PROJECT_DIR$/src/SearchEngine.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22804879">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#53#77#0" expanded="true" />
+            <element signature="e#455#834#0" expanded="false" />
+            <element signature="e#963#1051#0" expanded="false" />
+            <element signature="e#1054#2193#0" expanded="false" />
+            <element signature="e#1904#2127#0" expanded="false" />
+            <element signature="e#2196#2586#0" expanded="false" />
+            <element signature="e#3352#3748#0" expanded="false" />
+            <element signature="e#3751#3958#0" expanded="false" />
+            <element signature="e#3961#4074#0" expanded="false" />
+            <element signature="e#4028#4053#0" expanded="false" />
+            <element signature="e#4077#4343#0" expanded="false" />
+            <element signature="e#4346#4630#0" expanded="false" />
+            <element signature="e#4633#4814#0" expanded="false" />
+            <element signature="e#4817#5066#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PageSummary.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47682926">
-          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.2682927">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#195#286#0" expanded="false" />
             <element signature="e#289#573#0" expanded="false" />
             <element signature="e#576#712#0" expanded="false" />
-            <element signature="e#774#1198#1" expanded="false" />
+            <element signature="e#1221#1471#1" expanded="false" />
+            <element signature="e#1317#1469#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Query.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33170733">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#53#73#0" expanded="true" />
           </folding>
         </state>
       </provider>

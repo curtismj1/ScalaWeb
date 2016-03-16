@@ -6,7 +6,7 @@ import scala.collection.mutable.ListBuffer
 
 trait Weighted[A] {
   val items: Iterable[A]
-  def weightingFn: A => Double
+  val weightingFn: A => Double
   def weights: Iterable[Double] = {
     return for(item <- items) yield weightingFn(item)
   }
@@ -54,6 +54,23 @@ class PageSummary(incURL: String, incTerms: List[String]) {
     return i / terms.size
   }
 }
+
+trait Augmentable[A] {
+  val items: scala.collection.mutable.Seq[A] with
+    scala.collection.generic.Growable[A]
+
+  def add(newItem: A): Boolean = {
+    if(items.contains(newItem)){
+      return false
+    }
+    else{
+      items += newItem
+      return true
+    }
+
+  }
+}
+
 //TODO Ask about how IndexedPages is supposed to work
 class IndexedPages() extends Iterable[PageSummary]{
   var indexedPages = new ListBuffer[PageSummary]

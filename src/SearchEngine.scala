@@ -8,7 +8,7 @@ import org.apache.http.impl.client._
 import org.apache.http.client.utils._
 import org.apache.http.message._
 import org.apache.http.params._
-import PageSummary.PageSummary
+import PageSummary._
 import scala.collection.mutable.ListBuffer
 import scala.util.Random
 import scala.util.matching.Regex
@@ -71,8 +71,9 @@ object SearchEngine extends App{
         return responseBody
     }
   }
-  def crawlAndIndex(url: String, pages: Int): List[PageSummary] = {
+  def crawlAndIndex(url: String, pages: Int, mode: String = "read", weight: Boolean = true): List[PageSummary] = {
     var x = List[PageSummary]()
+    //var x = if(mode == "augment")  List[PageSummary] with Augmentable[List[PageSummary]] else  List[PageSummary]
     val links = getLinks(fetch(url), url).distinct
     val z = new PageSummary(url, getTerms(fetch(url), testFilter))
     if(pages > 1){
