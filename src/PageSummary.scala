@@ -3,7 +3,7 @@
   */
 package PageSummary
 import scala.collection.mutable.ListBuffer
-
+import Query._
 trait Weighted[A] {
   val items: Iterable[A]
   val weightingFn: A => Double
@@ -52,6 +52,9 @@ class PageSummary(incURL: String, incTerms: List[String]) {
       }
     }
     return i / terms.size
+  }
+  def search(q: Query) = {
+
   }
 }
 

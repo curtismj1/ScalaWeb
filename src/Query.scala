@@ -1,6 +1,7 @@
 /**
   * Created by Michael Curtis on 3/16/2016.
   */
+package Query
 import PageSummary._
 import Math._
 class Query(queryTerms: Iterable[String]) {

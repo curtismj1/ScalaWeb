@@ -73,7 +73,14 @@ object SearchEngine extends App{
   }
   def crawlAndIndex(url: String, pages: Int, mode: String = "read", weight: Boolean = true): List[PageSummary] = {
     var x = List[PageSummary]()
-    //var x = if(mode == "augment")  List[PageSummary] with Augmentable[List[PageSummary]] else  List[PageSummary]
+      //TODO Ask about this
+//    var x = if(mode == "augment") {
+//      List[PageSummary] with Augmentable[PageSummary]
+//    }
+//    else {
+//        List[PageSummary]()
+//    }
+
     val links = getLinks(fetch(url), url).distinct
     val z = new PageSummary(url, getTerms(fetch(url), testFilter))
     if(pages > 1){
