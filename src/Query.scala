@@ -4,11 +4,11 @@
 package Query
 import PageSummary._
 import Math._
-class Query(queryTerms: Iterable[String]) {
+class Query(val queryTerms: Iterable[String]) {
 
 }
-class WeightedQuery(querTerms: Iterable[String]) extends Query(querTerms) with Weighted[String]{
-  override val items: Iterable[String] = querTerms
+class WeightedQuery(queryTerms: Iterable[String]) extends Query(queryTerms) with Weighted[String]{
+  override val items: Iterable[String] = queryTerms
   override val weightingFn = (input: String) => {0.0}
   //TODO Make sure this overrides correctly
   //Weights the middle most terms the lowest and the tail ends the highest.

@@ -5,7 +5,6 @@
 import PageSummary.{IndexedPages, PageSummary, Weighted}
 
 class WeightedIndexedPages extends IndexedPages with Weighted[PageSummary]{
-  val items = indexedPages
   //This is called the "grover weighting function"
   val weightingFn = (page: PageSummary) => {
     //because who doesn't love random constants in their code?

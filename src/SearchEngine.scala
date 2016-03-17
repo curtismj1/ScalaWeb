@@ -71,34 +71,34 @@ object SearchEngine extends App{
         return responseBody
     }
   }
-  def crawlAndIndex(url: String, pages: Int, mode: String = "read", weight: Boolean = true): List[PageSummary] = {
-    var x = List[PageSummary]()
-      //TODO Ask about this
-//    var x = if(mode == "augment") {
-//      List[PageSummary] with Augmentable[PageSummary]
-//    }
-//    else {
-//        List[PageSummary]()
-//    }
+  def crawlAndIndex(url: String, pages: Int, mode: String = "read", weight: Boolean = true): IndexedPages = {
+    //var x = List[PageSummary]()
+
+    var x = if(mode == "augment") {
+      new IndexedPages with Augmentable[PageSummary]
+    }
+    else {
+      new IndexedPages
+    }
 
     val links = getLinks(fetch(url), url).distinct
     val z = new PageSummary(url, getTerms(fetch(url), testFilter))
     if(pages > 1){
       if(links.size > 0){
         var index =  0
-        while(x.size < pages && index < links.size) {
-          x = List[PageSummary](z) ::: crawlAndIndex(links(index), pages - 1)
+        while(x.pages.size < pages && index < links.size) {
+          x.pages = ListBuffer[PageSummary](z) ++ crawlAndIndex(links(index), pages - 1).pages
           index += 1
         }
       }
       else{
-        x = List[PageSummary](z)
+        x.pages = ListBuffer[PageSummary](z)
       }
       return x
     }
     else{
-      val y = List[PageSummary](z)
-      return y
+      x.pages = ListBuffer[PageSummary](z)
+      return x
     }
   }
   def formEntity = {

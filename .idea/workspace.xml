@@ -2,41 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b24310-fa51-4ec5-adeb-d0e93a499e00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchResults.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Query.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$10$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$fetch$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$formParams$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getLinks$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getLinks$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$getTerms$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handleGetRequest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handleOptionsRequest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$handlePostRequest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$$anonfun$headers$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine$delayedInit$body.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/SearchEngine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/WeightedQuery$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/WeightedQuery$$anonfun$weights$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/WeightedQuery$$anonfun$weights$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/WeightedQuery.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/scalaweb-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/scalaweb-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/scalaweb.iml" afterPath="$PROJECT_DIR$/.idea/modules/scalaweb.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PageSummary.scala" afterPath="$PROJECT_DIR$/src/PageSummary.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Query.scala" afterPath="$PROJECT_DIR$/src/Query.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SearchEngine.scala" afterPath="$PROJECT_DIR$/src/SearchEngine.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SearchResults.scala" afterPath="$PROJECT_DIR$/src/SearchResults.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WeightedIndexedPages.scala" afterPath="$PROJECT_DIR$/src/WeightedIndexedPages.scala" />
     </list>
     <ignored path="ScalaWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,112 +45,87 @@
     <favorites_list name="ScalaWeb" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="starter.scala" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/starter.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.37297922">
-                  <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SearchEngine.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/SearchEngine.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#53#77#0" expanded="true" />
-                    <element signature="e#455#834#0" expanded="false" />
-                    <element signature="e#963#1051#0" expanded="false" />
-                    <element signature="e#1054#2193#0" expanded="false" />
-                    <element signature="e#1904#2127#0" expanded="false" />
-                    <element signature="e#2196#2586#0" expanded="false" />
-                    <element signature="e#3419#3815#0" expanded="false" />
-                    <element signature="e#3818#4025#0" expanded="false" />
-                    <element signature="e#4028#4141#0" expanded="false" />
-                    <element signature="e#4095#4120#0" expanded="false" />
-                    <element signature="e#4144#4410#0" expanded="false" />
-                    <element signature="e#4413#4697#0" expanded="false" />
-                    <element signature="e#4700#4881#0" expanded="false" />
-                    <element signature="e#4884#5133#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="WeightedIndexedPages.scala" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/WeightedIndexedPages.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="PageSummary.scala" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/PageSummary.scala">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.2748268">
-                      <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-                      <folding>
-                        <element signature="n#!!doc" expanded="true" />
-                        <element signature="e#73#115#0" expanded="true" />
-                        <element signature="e#303#587#0" expanded="false" />
-                        <element signature="e#590#726#0" expanded="false" />
-                        <element signature="e#1363#1515#0" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="SearchResults.scala" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/SearchResults.scala">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.15704387">
-                      <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-                      <folding>
-                        <element signature="n#!!doc" expanded="true" />
-                        <element signature="e#53#73#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Query.scala" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/Query.scala">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-                      <folding>
-                        <element signature="n#!!doc" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SearchResults.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SearchResults.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#53#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Query.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Query.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#67#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchEngine.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SearchEngine.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <element signature="e#53#77#0" expanded="true" />
+                <element signature="e#455#834#0" expanded="false" />
+                <element signature="e#963#1051#0" expanded="false" />
+                <element signature="e#1054#2193#0" expanded="false" />
+                <element signature="e#1904#2127#0" expanded="false" />
+                <element signature="e#2196#2586#0" expanded="false" />
+                <element signature="e#2766#2826#0" expanded="false" />
+                <element signature="e#3414#3810#0" expanded="false" />
+                <element signature="e#3813#4020#0" expanded="false" />
+                <element signature="e#4023#4136#0" expanded="false" />
+                <element signature="e#4090#4115#0" expanded="false" />
+                <element signature="e#4139#4405#0" expanded="false" />
+                <element signature="e#4408#4692#0" expanded="false" />
+                <element signature="e#4695#4876#0" expanded="false" />
+                <element signature="e#4879#5128#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeightedIndexedPages.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WeightedIndexedPages.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageSummary.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PageSummary.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.035051547">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#242#333#0" expanded="false" />
+                <element signature="e#336#620#0" expanded="false" />
+                <element signature="e#623#759#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -203,16 +151,17 @@
         <option value="$PROJECT_DIR$/src/main/SearchEngine.scala" />
         <option value="$PROJECT_DIR$/src/main/starter.scala" />
         <option value="$PROJECT_DIR$/src/WeightedIndexedPages.scala" />
-        <option value="$PROJECT_DIR$/src/SearchEngine.scala" />
         <option value="$PROJECT_DIR$/src/Query.scala" />
+        <option value="$PROJECT_DIR$/src/SearchEngine.scala" />
         <option value="$PROJECT_DIR$/src/PageSummary.scala" />
         <option value="$PROJECT_DIR$/src/SearchResults.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="2120" />
+    <option name="x" value="-4" />
+    <option name="width" value="1284" />
+    <option name="height" value="760" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -240,8 +189,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,6 +231,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Query.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PageSummary.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -308,6 +291,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -717,22 +702,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="2120" extended-state="0" />
+    <frame x="-4" y="0" width="1284" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1557214" sideWeight="0.43907562" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2476923" sideWeight="0.42180094" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10995025" sideWeight="0.5021008" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2476923" sideWeight="0.578199" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2119403" sideWeight="0.59138656" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21076924" sideWeight="0.59138656" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16281512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10995025" sideWeight="0.49789914" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1719243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33076924" sideWeight="0.47551343" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -744,6 +729,31 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2476923" sideWeight="0.42180094" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2476923" sideWeight="0.578199" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2119403" sideWeight="0.59138656" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1721959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33076924" sideWeight="0.47551343" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.47478992" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -786,14 +796,15 @@
             <element signature="e#1054#2193#0" expanded="false" />
             <element signature="e#1904#2127#0" expanded="false" />
             <element signature="e#2196#2586#0" expanded="false" />
-            <element signature="e#3419#3815#0" expanded="false" />
-            <element signature="e#3818#4025#0" expanded="false" />
-            <element signature="e#4028#4141#0" expanded="false" />
-            <element signature="e#4095#4120#0" expanded="false" />
-            <element signature="e#4144#4410#0" expanded="false" />
-            <element signature="e#4413#4697#0" expanded="false" />
-            <element signature="e#4700#4881#0" expanded="false" />
-            <element signature="e#4884#5133#0" expanded="false" />
+            <element signature="e#2766#2826#0" expanded="false" />
+            <element signature="e#3414#3810#0" expanded="false" />
+            <element signature="e#3813#4020#0" expanded="false" />
+            <element signature="e#4023#4136#0" expanded="false" />
+            <element signature="e#4090#4115#0" expanded="false" />
+            <element signature="e#4139#4405#0" expanded="false" />
+            <element signature="e#4408#4692#0" expanded="false" />
+            <element signature="e#4695#4876#0" expanded="false" />
+            <element signature="e#4879#5128#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -804,10 +815,9 @@
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#73#115#0" expanded="true" />
-            <element signature="e#303#587#0" expanded="false" />
-            <element signature="e#590#726#0" expanded="false" />
-            <element signature="e#1363#1515#0" expanded="false" />
+            <element signature="e#242#333#0" expanded="false" />
+            <element signature="e#336#620#0" expanded="false" />
+            <element signature="e#623#759#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -866,14 +876,15 @@
             <element signature="e#1054#2193#0" expanded="false" />
             <element signature="e#1904#2127#0" expanded="false" />
             <element signature="e#2196#2586#0" expanded="false" />
-            <element signature="e#3419#3815#0" expanded="false" />
-            <element signature="e#3818#4025#0" expanded="false" />
-            <element signature="e#4028#4141#0" expanded="false" />
-            <element signature="e#4095#4120#0" expanded="false" />
-            <element signature="e#4144#4410#0" expanded="false" />
-            <element signature="e#4413#4697#0" expanded="false" />
-            <element signature="e#4700#4881#0" expanded="false" />
-            <element signature="e#4884#5133#0" expanded="false" />
+            <element signature="e#2766#2826#0" expanded="false" />
+            <element signature="e#3414#3810#0" expanded="false" />
+            <element signature="e#3813#4020#0" expanded="false" />
+            <element signature="e#4023#4136#0" expanded="false" />
+            <element signature="e#4090#4115#0" expanded="false" />
+            <element signature="e#4139#4405#0" expanded="false" />
+            <element signature="e#4408#4692#0" expanded="false" />
+            <element signature="e#4695#4876#0" expanded="false" />
+            <element signature="e#4879#5128#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,10 +895,9 @@
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#73#115#0" expanded="true" />
-            <element signature="e#303#587#0" expanded="false" />
-            <element signature="e#590#726#0" expanded="false" />
-            <element signature="e#1363#1515#0" expanded="false" />
+            <element signature="e#242#333#0" expanded="false" />
+            <element signature="e#336#620#0" expanded="false" />
+            <element signature="e#623#759#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -946,14 +956,15 @@
             <element signature="e#1054#2193#0" expanded="false" />
             <element signature="e#1904#2127#0" expanded="false" />
             <element signature="e#2196#2586#0" expanded="false" />
-            <element signature="e#3419#3815#0" expanded="false" />
-            <element signature="e#3818#4025#0" expanded="false" />
-            <element signature="e#4028#4141#0" expanded="false" />
-            <element signature="e#4095#4120#0" expanded="false" />
-            <element signature="e#4144#4410#0" expanded="false" />
-            <element signature="e#4413#4697#0" expanded="false" />
-            <element signature="e#4700#4881#0" expanded="false" />
-            <element signature="e#4884#5133#0" expanded="false" />
+            <element signature="e#2766#2826#0" expanded="false" />
+            <element signature="e#3414#3810#0" expanded="false" />
+            <element signature="e#3813#4020#0" expanded="false" />
+            <element signature="e#4023#4136#0" expanded="false" />
+            <element signature="e#4090#4115#0" expanded="false" />
+            <element signature="e#4139#4405#0" expanded="false" />
+            <element signature="e#4408#4692#0" expanded="false" />
+            <element signature="e#4695#4876#0" expanded="false" />
+            <element signature="e#4879#5128#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -964,10 +975,9 @@
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#73#115#0" expanded="true" />
-            <element signature="e#303#587#0" expanded="false" />
-            <element signature="e#590#726#0" expanded="false" />
-            <element signature="e#1363#1515#0" expanded="false" />
+            <element signature="e#242#333#0" expanded="false" />
+            <element signature="e#336#620#0" expanded="false" />
+            <element signature="e#623#759#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1026,14 +1036,15 @@
             <element signature="e#1054#2193#0" expanded="false" />
             <element signature="e#1904#2127#0" expanded="false" />
             <element signature="e#2196#2586#0" expanded="false" />
-            <element signature="e#3419#3815#0" expanded="false" />
-            <element signature="e#3818#4025#0" expanded="false" />
-            <element signature="e#4028#4141#0" expanded="false" />
-            <element signature="e#4095#4120#0" expanded="false" />
-            <element signature="e#4144#4410#0" expanded="false" />
-            <element signature="e#4413#4697#0" expanded="false" />
-            <element signature="e#4700#4881#0" expanded="false" />
-            <element signature="e#4884#5133#0" expanded="false" />
+            <element signature="e#2766#2826#0" expanded="false" />
+            <element signature="e#3414#3810#0" expanded="false" />
+            <element signature="e#3813#4020#0" expanded="false" />
+            <element signature="e#4023#4136#0" expanded="false" />
+            <element signature="e#4090#4115#0" expanded="false" />
+            <element signature="e#4139#4405#0" expanded="false" />
+            <element signature="e#4408#4692#0" expanded="false" />
+            <element signature="e#4695#4876#0" expanded="false" />
+            <element signature="e#4879#5128#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1044,10 +1055,9 @@
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#73#115#0" expanded="true" />
-            <element signature="e#303#587#0" expanded="false" />
-            <element signature="e#590#726#0" expanded="false" />
-            <element signature="e#1363#1515#0" expanded="false" />
+            <element signature="e#242#333#0" expanded="false" />
+            <element signature="e#336#620#0" expanded="false" />
+            <element signature="e#623#759#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1179,43 +1189,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeightedIndexedPages.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchEngine.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-          <folding>
-            <element signature="e#53#77#0" expanded="true" />
-            <element signature="e#455#834#0" expanded="false" />
-            <element signature="e#963#1051#0" expanded="false" />
-            <element signature="e#1054#2193#0" expanded="false" />
-            <element signature="e#1904#2127#0" expanded="false" />
-            <element signature="e#2196#2586#0" expanded="false" />
-            <element signature="e#3419#3815#0" expanded="false" />
-            <element signature="e#3818#4025#0" expanded="false" />
-            <element signature="e#4028#4141#0" expanded="false" />
-            <element signature="e#4095#4120#0" expanded="false" />
-            <element signature="e#4144#4410#0" expanded="false" />
-            <element signature="e#4413#4697#0" expanded="false" />
-            <element signature="e#4700#4881#0" expanded="false" />
-            <element signature="e#4884#5133#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/starter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37297922">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.030909091">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1223,7 +1200,53 @@
     <entry file="file://$PROJECT_DIR$/src/Query.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#67#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchResults.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#53#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchEngine.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#53#77#0" expanded="true" />
+            <element signature="e#455#834#0" expanded="false" />
+            <element signature="e#963#1051#0" expanded="false" />
+            <element signature="e#1054#2193#0" expanded="false" />
+            <element signature="e#1904#2127#0" expanded="false" />
+            <element signature="e#2196#2586#0" expanded="false" />
+            <element signature="e#2766#2826#0" expanded="false" />
+            <element signature="e#3414#3810#0" expanded="false" />
+            <element signature="e#3813#4020#0" expanded="false" />
+            <element signature="e#4023#4136#0" expanded="false" />
+            <element signature="e#4090#4115#0" expanded="false" />
+            <element signature="e#4139#4405#0" expanded="false" />
+            <element signature="e#4408#4692#0" expanded="false" />
+            <element signature="e#4695#4876#0" expanded="false" />
+            <element signature="e#4879#5128#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WeightedIndexedPages.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1232,25 +1255,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PageSummary.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2748268">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.035051547">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#73#115#0" expanded="true" />
-            <element signature="e#303#587#0" expanded="false" />
-            <element signature="e#590#726#0" expanded="false" />
-            <element signature="e#1363#1515#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchResults.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15704387">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#53#73#0" expanded="true" />
+            <element signature="e#242#333#0" expanded="false" />
+            <element signature="e#336#620#0" expanded="false" />
+            <element signature="e#623#759#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1284,6 +1295,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>scala-sdk-2.11.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1295,7 +1307,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1307,7 +1319,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>scalaweb</last-edited>
+          <last-edited>scalaweb-build</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

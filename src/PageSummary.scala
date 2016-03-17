@@ -2,6 +2,8 @@
   * Created by Michael Curtis on 2/11/2016.
   */
 package PageSummary
+
+import scala.collection.mutable
 import scala.collection.mutable.ListBuffer
 import Query._
 trait Weighted[A] {
@@ -70,18 +72,18 @@ trait Augmentable[A] {
       items += newItem
       return true
     }
-
   }
 }
 
 //TODO Ask about how IndexedPages is supposed to work
 class IndexedPages() extends Iterable[PageSummary]{
-  var indexedPages = new ListBuffer[PageSummary]
-  override def iterator = indexedPages.iterator
+  var pages = new ListBuffer[PageSummary]
+  val items = pages
+  override def iterator = pages.iterator
   //TODO test this and make sure that "snowflake" doesn't return positive for "snow"
   def numContaining(word: String): Double = {
     var count = 0.0
-    for(page <- indexedPages){
+    for(page <- pages){
       if(page.terms.contains(word)){
         count += 1.0
       }
