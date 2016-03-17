@@ -6,6 +6,7 @@ package PageSummary
 import scala.collection.mutable
 import scala.collection.mutable.ListBuffer
 import Query._
+import SearchResults._
 trait Weighted[A] {
   val items: Iterable[A]
   val weightingFn: A => Double
@@ -89,5 +90,18 @@ class IndexedPages() extends Iterable[PageSummary]{
       }
     }
     return count
+  }
+  def search(q: Query) : SearchResults = {
+    var s = new SearchResults(q, pages)
+    var res = s.results
+    q match{
+      case i: WeightedQuery => {
+        for((weight, value) <- i.weights.zip(res)){
+          value._1 = value._1 * weight
+        }
+      }
+      case _ =>
+    }
+    s
   }
 }

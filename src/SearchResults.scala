@@ -1,6 +1,8 @@
 /**
   * Created by Michael Curtis on 3/16/2016.
   */
+
+package SearchResults
 import PageSummary._
 import Query._
 import scala.collection.mutable.ListBuffer
