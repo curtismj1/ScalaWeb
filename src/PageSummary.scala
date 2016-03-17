@@ -94,14 +94,7 @@ class IndexedPages() extends Iterable[PageSummary]{
   def search(q: Query) : SearchResults = {
     var s = new SearchResults(q, pages)
     var res = s.results
-    q match{
-      case i: WeightedQuery => {
-        for((weight, value) <- i.weights.zip(res)){
-          value._1 = value._1 * weight
-        }
-      }
-      case _ =>
-    }
+
     s
   }
 }
