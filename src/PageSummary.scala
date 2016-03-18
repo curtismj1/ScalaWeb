@@ -13,7 +13,7 @@ trait Weighted[A] {
   def weights: Iterable[Double] = {
     return for(item <- items) yield weightingFn(item)
   }
-  //TODO Ask about whether or not this function is correct. Seems off
+
   def sumIf(p: A => Boolean): Double = {
     var d = 0.0
     val temp = weights.toArray
@@ -78,7 +78,8 @@ trait Augmentable[A] {
 
 //TODO Ask about how IndexedPages is supposed to work
 class IndexedPages() extends Iterable[PageSummary]{
-  var pages = new ListBuffer[PageSummary]
+  var pages = (new ListBuffer[PageSummary])
+  var par_pages = pages.par
   val items = pages
   override def iterator = pages.iterator
   //TODO test this and make sure that "snowflake" doesn't return positive for "snow"

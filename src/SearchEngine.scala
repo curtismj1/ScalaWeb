@@ -72,26 +72,23 @@ object SearchEngine extends App{
     }
   }
   def crawlAndIndex(url: String, pages: Int, mode: String = "read", weight: Boolean = true): IndexedPages = {
-    //var x = List[PageSummary]()
-
     var x = if(mode == "augment") {
       new IndexedPages with Augmentable[PageSummary]
     }
     else {
       new IndexedPages
     }
-
     val links = getLinks(fetch(url), url).distinct
     val z = new PageSummary(url, getTerms(fetch(url), testFilter))
     if(pages > 1){
       if(links.size > 0){
         var index =  0
         while(x.pages.size < pages && index < links.size) {
-          x.pages = ListBuffer[PageSummary](z) ++ crawlAndIndex(links(index), pages - 1).pages
+          x.pages = (ListBuffer[PageSummary](z) ++ crawlAndIndex(links(index), pages - 1))
           index += 1
         }
       }
-      else{
+      else {
         x.pages = ListBuffer[PageSummary](z)
       }
       return x
@@ -118,7 +115,7 @@ object SearchEngine extends App{
     return (for(c <- (new Regex("(_|\\w)*")).findAllIn(html).mkString(",").split(",") if c != ""; if f(c)) yield c)(collection.breakOut)
   }
   def testFilter(input: String): Boolean = {
-    if(input.length > 0){
+    if(input.length > 0 && !input.contains("html") && !input.contains("lang") && !input.contains("en")){
       return true
     }
     return false
@@ -163,12 +160,17 @@ object SearchEngine extends App{
       for(c <- x){
         println(c)
       }
-    case "crawl" => val x = crawlAndIndex(url, 10)
-      for(c <- x){
-        println("New Page")
+    case "crawl" =>
+      println("Start")
+      val x = crawlAndIndex(url, 10)
+      println("Done")
+
+      for((c, index) <- x.zipWithIndex){
+        println("New Page " + index)
         for(b <- c.terms){
           print(b + " ")
         }
+        println()
       }
   }
 

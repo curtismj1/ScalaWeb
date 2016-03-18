@@ -7,6 +7,7 @@ import PageSummary._
 import Query._
 import scala.collection.mutable.ListBuffer
 import scala.math
+import WeightedIndexedPages.WeightedIndexedPages
 class SearchResults(query: Query, pages: Iterable[PageSummary]) {
 
   def results: Iterable[(Double, String)] = {
@@ -23,12 +24,17 @@ class SearchResults(query: Query, pages: Iterable[PageSummary]) {
       var n = 0
       var size = pages.size.toDouble
       for((word, weight) <- query.queryTerms.zip(weights)){
+        var indexedWeight = 1.0
         for(page <- pages){
           if(page.terms.contains(word)){
             n += 1
           }
+          page match{
+            case i: WeightedIndexedPages => indexedWeight = i.weightingFn(page)
+            case _ =>
+          }
         }
-        b += ((weight * math.log(size/(1.0 + n.toDouble)), word))
+        b += ((indexedWeight * weight * math.log(size/(1.0 + n.toDouble)), word))
       }
     b.sortWith(_._1 > _._1)
   }
